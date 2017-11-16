@@ -1,0 +1,9 @@
+---
+- host:
+  connection: ssh
+  become: sudo 
+    - name: 
+      yum: name=hhtpd state=installed 
+ 
+     
+   
